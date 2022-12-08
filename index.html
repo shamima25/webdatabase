@@ -1,88 +1,38 @@
 <!DOCTYPE>
 <html>
 	<head>
-		<title> This is my 1st webpage by shamima Najnin</title>
-		<style>
-		#head{
-			background-color:DeepSkyBlue ;
-
-			top: 0px;
-			left: 0px;
-			right: 0px;
-			height: 170px;
-            padding-top:30px;
-			width:100%;
-			text-align: center;
-			color: white;
-			font-size:29px;
-			}
-		#import{
-				top: 200px;
-				height:20px;
-				background-color: white;
-				font-size:20px;
-                padding:10px 0;
-				color: blue;
-				float:middle;
-			}	
-		#left-content{
-			background-color:AntiqueWhite;
-			top: 220px;
-			left: 0px;
-			right:70%;
-			height:400px;
-			width: 29%;
-			text-align: center;
-			color: yellow;
-			font-size:20px;
-			float: left;
-			}
-		#righ-content{
-			background-color: BlanchedAlmond;
-			text-align: center;
-			top: 220px;
-			left:30%;
-			right: 0px;
-			height:400px;
-			width: 70%;
-            margin-left:15px;
-			text-align:center;
-			color:red;
-			font-size:25px;
-			float: right;
-			}
-
-		#footer{
-			background-color:SlateGrey;
-			text-align:center;
-			top:400px;
-			left: 0px;
-			right:0px;
-			height: 600px;
-			width:100%;
-			color: yellow;
-			font-size: 36px;
-			}
-		</style>
+		<title> This is my 1st webpage</title>
+		<link rel="stylesheet" href="style.css">
 	</head>
 	<body>
 
-		<div id="head">
-			This is header
-		</div>
-		<div id="import">
-			<marquee>
-				I am shamima Najnin, Wellcome to city university
-			</marquee>
-		</div>
-		<div id="left-content">
-		<a href="Home">home</a>
-		</div>
-		<div id="righ-content">
-		This is right content
-		</div>
-		<div id="footer">
-		This is footer
 
+		<div id="menu">
+		<ul class="left">
+           <a href="index.html"><li> Home</li></a>
+           <a href="contact.html"> <li> Contact</li></a>
+            </ul>
+            <ul class="right">
+            <a href="#"> <li> Login</li></a>
+            <a href="#"><li> Signup</li></a>
+        </ul>
+		</div>
+		
+		<div id="main">
+		<h2>Table content</h2>
+            <Table border="2px" Style=" width: 100%;">
+            <tr> <th>date</th><th  colspan="2"> class time</th></tr>
+            <tr> <td rowspan="2"> 11/11/2022 </td><td>9:00</td><td>11:00</td></tr>
+            <tr><td>SE407</td><td>SE408</td></tr>
+            
+        </Table>
+            <p> a<sup>2</sup>+H <sub>2</sub>O</p>
+		</div>
+        
+        <footer>
+            Copy right @ shamima
+        </footer>
+		
+        
 	</body>
 </html>
